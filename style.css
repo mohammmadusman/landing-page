@@ -1,0 +1,50 @@
+  {
+    font-family:Arial,sans-serif;
+}
+       
+        body{ background-color: whitesmoke;color: black;line-height:1.6;}
+         a {
+         text-decoration: none;
+        color: inherit;
+    }
+        header{background-color: white;padding:20px 50px ;overflow: auto;border-bottom: 3px solid dodgerblue;}
+      
+    .logo{
+        color: navy;float: left;font-size: 22px;font-weight: bold;}
+    nav{float: right;}    
+    .nav-links{list-style-type:none ; }
+    .nav-links li{display: inline;margin-left: 40px; }
+    
+    .nav-links a {
+        font-weight: bold;
+        color:darkgreen;}
+    .nav-links a:hover {
+        color: dodgerblue;text-decoration: underline;}
+        .Hero{background-color:navy ;color: white;text-align: center;padding:  80px 20px;margin-bottom: 10px;text-shadow: 2px 2px 4px black; }
+        .Hero h1 {
+        margin-bottom: 15px; }
+        .Hero p{ margin-bottom: 25px;}
+        .button{background-color:crimson;color: white;padding: 12px 25px;display: inline-block;font-weight:bold ; border-bottom: 3px solid darkred;}
+.button:hover{background-color:maroon;}
+.About {
+        padding: 60px 50px;
+        text-align: center;
+        background-color: white} 
+        .About h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        color: navy; }
+        .Services {
+        padding: 60px 50px;
+        text-align: center;}
+
+    .Services h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        color: navy;}
+        .card { background-color:white;border-radius: 5%; display:inline-block;  margin: 10px;  padding: 25px;text-align: left;border-top: 4px  solid dodgerblue;}
+.card:hover{background-color:white; border-top: 4px solid crimson;}.card h3 {color: dodgerblue;
+        margin-bottom: 10px;}
+        .Contact{text-align: center;background-color: white;padding: 20px;text-align: center;border-top: 2px solid lightgray; }
+        .Contact h2{color: navy;;}
+        footer{background-color: darkslategray;text-align: center;color: white;padding: 20px;}
